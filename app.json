@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "seeval",
+    "slug": "seeval",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "seeval",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "Anu.seeval.app",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "EXPO_PUBLIC_API_URL": "http://192.168.55.150:8000/api",
+      "router": {},
+      "eas": {
+        "projectId": "3a274e49-789c-4328-a44b-7f2a807eb0df"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+sign up
+email,password,phoneno with country code
+verification-otp should sent to email
+
+login
+email,password 
+
+forgot password
+email-password reset verification link 
+reset link-change password
