@@ -3,9 +3,11 @@
     "name": "seeval",
     "slug": "seeval",
     "version": "1.0.1",
+    "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "scheme": "seeval",
     "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android", "web"],
     "newArchEnabled": true,
     "android": {
       "edgeToEdgeEnabled": true,
@@ -25,9 +27,7 @@
       "bundler": "metro",
       "output": "static"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     },
