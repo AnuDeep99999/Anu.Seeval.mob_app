@@ -2,16 +2,24 @@
   "expo": {
     "name": "seeval",
     "slug": "seeval",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "scheme": "seeval",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "android": {
       "edgeToEdgeEnabled": true,
-      "package": "Anu.seeval.app",
-      "versionCode": 1,
-      "permissions": []
+      "package": "com.anudeep.yaga.seeval",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [],
+      "useNextNotificationsApi": true,
+      "allowBackup": true,
+      "intentFilters": [],
+      "usesCleartextTraffic": true
     },
     "web": {
       "bundler": "metro",
@@ -24,7 +32,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "EXPO_PUBLIC_API_URL": "http://192.168.55.150:8000/api",
+      "EXPO_PUBLIC_API_URL": "http://192.168.55.102:8000/api",
       "router": {},
       "eas": {
         "projectId": "3a274e49-789c-4328-a44b-7f2a807eb0df"
